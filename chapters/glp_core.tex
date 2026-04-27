@@ -50,7 +50,7 @@ This restriction excludes programs like the equality definition \verb|X=X| as it
 \subsection{GLP Operational Semantics}
 
 \begin{definition}[Writers Assignment, Readers Counterpart]\label{definition:writers-assignment}
-A \temph{writers assignment} $\sigma$ is a set of assignments $\{$\verb|X1|}$ := T_1, \ldots, $\verb|Xk|$ := T_k\}$ where each \verb|Xi| $\in V$ is a writer.
+A \temph{writers assignment} $\sigma$ is a set of assignments $\{$\verb|X1|$ := T_1, \ldots, $\verb|Xk|$ := T_k\}$ where each \verb|Xi| $\in V$ is a writer.
 
 A \temph{readers assignment} $\sigma$ is a set of assignments where each variable in the domain is a reader.
 
@@ -153,7 +153,7 @@ Note that duplications as above result from Communicate transitions.
 \begin{restatable}[GLP Computations are Deductions]{proposition}{GLPComputationsareDeductions}\label{theorem:GLP-computation-deduction}
 For any finite GLP run $r$, let 
 $L(r) = G_0\xrightarrow{\sigma_1}G_1\xrightarrow{\sigma_2}\ldots G_n$, 
-with $\sigma = \sigma_1\cdot \ldots \cdot \sigma_n$, then $(G_0 \verb|:-| G_n)\sigma$ is a logical consequence of $L(M)$.
+with $\sigma = \sigma_1\cdot \ldots \cdot \sigma_n$, then $(G_0 \texttt{:-} G_n)\sigma$ is a logical consequence of $L(M)$.
 \end{restatable}
 
 Next, we establish essential safety properties for GLP that distinguish it from standard LP. The key is monotonicity—once a goal becomes reducible in GLP, it remains reducible.
