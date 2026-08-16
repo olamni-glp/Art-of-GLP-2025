@@ -1,2 +1,5 @@
 .specify/.deploy-migrated
 .specify/deploy-ledger.jsonl
+
+# operational PGlite catalog - machine-local, never committed (fleet convention)
+pgdb/

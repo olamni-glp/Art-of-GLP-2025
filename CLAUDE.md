@@ -131,3 +131,8 @@ git fetch origin claude/<branch-name>
 git merge -m "Merge claude/<branch-name> into main" origin/claude/<branch-name>
 git push origin main
 ```
+
+<!-- BUILDKIT START -->
+For additional context about technologies to be used, project structure,
+shell commands, and other important information, read the current plan
+<!-- BUILDKIT END -->
